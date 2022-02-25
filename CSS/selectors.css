@@ -1,0 +1,15 @@
+#a1{
+    color: blue;
+}
+#a2{
+    color: crimson;
+}
+.a3{
+    color: darkgreen;
+}
+.a4{
+    color: darkorange;
+    /*tag selector
+    id selector #
+    class selector .*/
+}

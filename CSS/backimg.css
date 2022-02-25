@@ -1,0 +1,11 @@
+div{
+    width: 25%;
+    height: 300px;
+    border: white 2px solid;
+
+}
+body{
+     background-image: url(./images/tree-736885__480.jpg);
+     background-size: cover;
+      
+ }

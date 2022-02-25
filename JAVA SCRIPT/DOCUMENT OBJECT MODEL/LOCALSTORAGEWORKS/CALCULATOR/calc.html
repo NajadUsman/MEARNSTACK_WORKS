@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cal-box">
+            <form name="calculator">
+                <input type="text" id="result" placeholder="0" readonly >
+                <br/>
+                <input type="button" class="button" value="1" onclick="displayNum('1')" id="one" >
+                <input type="button" class="button" value="2" onclick="displayNum('2')" id="two"  >
+                <input type="button" class="button" value="3" onclick="displayNum('3')">
+                <input type="button" class="button mathbutton" value="+" onclick="displayNum('+')" >
+                <br/>
+                <input type="button" class="button" value="4" onclick="displayNum('4')">
+                <input type="button" class="button" value="5" onclick="displayNum('5')">
+                <input type="button" class="button" value="6" onclick="displayNum('6')" >
+                <input type="button" class="button mathbutton" value="-" onclick="displayNum('-')">
+                <br/>
+                <input type="button" class="button" value="7" onclick="displayNum('7')">
+                <input type="button" class="button" value="8" onclick="displayNum('8')">
+                <input type="button" class="button" value="9" onclick="displayNum('9')" >
+                <input type="button" class="button mathbutton" value="*" onclick="displayNum('*')" >
+                <br/>
+                <input type="button" class="button clearbutton" value="C" onclick="clearBox('C')">
+                <input type="button" class="button" value="0" onclick="display('0')">
+                <input type="button" class="button mathbutton" value="=" onclick="evaluateExpression()" >
+                <input type="button" class="button mathbutton" value="/" onclick="displayNum('/')">
+                <br/>
+
+
+
+
+            </form>
+
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Island+Moments&family=Licorice&family=Pacifico&family=Pushster&family=Roboto+Slab:wght@100&family=Shizuru&display=swap');
+body {
+  background-color: black;
+  background-image: url(./images/food-website.jpg);
+  width: 100%;
+
+}
+h1{
+    font-family: 'Licorice', cursive;
+    color: red;
+    font-size: 500%;
+    text-align: center;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 250%;
+    margin-top: -5%;
+    color: white;
+}
+.row {
+  width: 100%;
+  height: 495px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  font-family: "Caveat", cursive;
+}
+.col {
+  width: 30%;
+  height: 473px;
+  border: white 3px solid;
+  background-color: black;
+  border-radius: 50px;
+}
+img {
+  width: 97%;
+  height: 180px;
+  border-radius: 90px;
+  margin-top: 5%;
+  border: white 3px solid;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+P {
+  font-size: 100%;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+}
+button {
+  background-color: black; 
+   color: white; 
+  border-radius: 50px;
+  width: 50%;
+  height: 50px;
+  border: white 3px solid;
+  transition-duration: 0.4s;
+  
+}
+button:hover{
+    background-color: red;
+    color: black;
+}
+.b1 {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+.b2 {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+.b3 {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+.b4 {
+  margin-top: 1%;
+   margin-left: 25%;
+}
+.b5 {
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.b6 {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.b7 {
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.b8 {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+.b9 {
+  margin-top: 1%;
+  margin-left: 25%;
+}

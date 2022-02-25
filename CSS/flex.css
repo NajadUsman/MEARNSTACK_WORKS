@@ -1,0 +1,35 @@
+.row{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    align-items: center; 
+    /* using for vertically changing */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+
+}
+.col{
+    width: 307px;
+    height: 463px;
+    border: black 3px solid;
+ 
+}
+.col1{
+    background-color: pink;
+
+}
+.col2{
+    background-color: purple;
+
+}
+.col3{
+    background-color: green;
+
+}
+.col4{
+    background-color: red;
+}
